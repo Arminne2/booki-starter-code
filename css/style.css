@@ -18,6 +18,28 @@ body {
     justify-content: center;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.header ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+.header a{
+    padding: 10px;
+}
+
+.header li:hover{
+    border-top-style: solid;
+    border-width: 2px;
+    border-top-color :#0065FC;
+    color: blue;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
