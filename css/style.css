@@ -39,7 +39,56 @@ header{
     border-top-color :#0065FC;
     color: blue;
 }
-
+.recherche { 
+    display:flex;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+.vector{
+    background-color: #F2F2F2; 
+    width: 50px; 
+    border-radius: 15px 0 0 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+#recherche{
+    height: 49px;
+    border-style: solid;
+    border-right-style : none;
+    border-color: #F2F2F2;
+    border-width : 1px;
+    text-align:center;
+    
+}
+#recherche:focus{
+     outline: none; 
+}
+.recherche button{
+    margin: 0px;
+    height: 49px;
+    background-color: #0065FC;
+    color: white;
+    border-style: none;
+    border-radius: 0 15px 15px 0 ;
+   
+}
+.filtre{
+    display: flex;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.filtre button{
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+    border-color: #D9D9D9;
+    border-radius: 25px;
+    border-width: 2px;
+}
 .main-container {
     width: 100%;
     max-width: 1440px;
