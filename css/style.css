@@ -88,6 +88,14 @@ header{
     border-color: #D9D9D9;
     border-radius: 25px;
     border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.filtre img{
+    height: 20px;
+}
+.filtre span{
+padding-left: 5px;
 }
 .main-container {
     width: 100%;
