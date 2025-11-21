@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin : 0px;
 }
 
 header{
@@ -24,13 +25,19 @@ header{
     margin-bottom: 10px;
 }
 
-
+#logo{
+    height:19px;
+    width: 62px;
+    padding: 30px 0px 30px 0px;
+}
+.header ul {
+     display: inline-flex;
+    gap: 68px;
+    margin: 0px;
+}
 .header ul li {
     list-style-type: none;
-    display: inline-block;
-}
-.header a{
-    padding: 10px;
+    padding-top : 15px;
 }
 
 .header li:hover{
@@ -38,10 +45,22 @@ header{
     border-width: 2px;
     border-top-color :#0065FC;
     color: blue;
+    padding-top: 13px;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.headline h1{
+    font-size: 22px;
+}
+.headline p{
+    font-size : 16px;
 }
 .recherche { 
     display:flex;
-    margin: 5px;
     font-size: 18px;
     font-weight: bolder;
  }
@@ -64,39 +83,55 @@ header{
 #recherche:focus{
      outline: none; 
 }
-.recherche button{
-    margin: 0px;
+::placeholder {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+}
+.recherche span{
+    
     height: 49px;
+    width: 132px;
     background-color: #0065FC;
     color: white;
     border-style: none;
     border-radius: 0 15px 15px 0 ;
    
 }
+.recherche span p{
+margin : 15px 16px 15px 16px;
+
+}
 .filtre{
     display: flex;
-    margin-top: 19px;
-    margin-bottom: 19px;
-}
-.filtre button{
     height: 50px;
-    margin-left: 10px;
-    margin-right: 10px;
+    align-items: center;
+    gap: 10px;
+}
+.filtre h3{
+    display: flex;
+    font-size: 18px;
+    height: 21px;
+}
+.filtre div{
+    display: flex;
     font-size: 17px;
     font-weight: bold;
-    background-color: white;
-    border-color: #D9D9D9;
     border-radius: 25px;
     border-width: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    padding: 13px 19px;
+    gap:10px;
+}
+.filtre div:hover{
+    background-color:#DEEBFF;
 }
 .filtre img{
+    display: flex;
     height: 20px;
 }
-.filtre span{
-padding-left: 5px;
-}
+
 .main-container {
     width: 100%;
     max-width: 1440px;

@@ -17,27 +17,29 @@
 <body>
     <div class="main-container">
         <header>
-            <img src="./images/logo/Booki.png" alt="logo booki">
+            <img id="logo" src="./images/logo/Booki.png" alt="logo booki">
             <nav class="header">
                 <ul><li><a href="#">Hébergements</a></li>
                 <li><a href="#">Activités</a></li></ul>
                 </nav>
         </header>
         <main>
-            <div class="info">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <p>En plein centre-ville ou en pleine nature</p>
+            <div id="info">
+                <div class="headline">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
                 <form action="" method="get" class="recherche">
                     <div class="vector"><img src="images\icon\Vector.png" alt="Vector"></div>
-                    <input type="search" id="recherche" name="recherche"/>
-                    <button>rechercher</button>
+                    <input type="search" id="recherche" name="recherche" placeholder="Marseille, France">
+                    <span><p>Rechercher</p></span>
                 </form>
                 <section class="filtre">
                     <h3>Filtres</h3> 
-                    <button><img src="images\icon\Property 1=price.png"><span>Économique</span></button>
-                    <button><img src="images\icon\Property 1=family.png"><span>Familial</span></button>
-                    <button><img src="images\icon\Property 1=romantic.png"><span>Romantique</span></button>
-                    <button><img src="images\icon\Property 1=fire.png"><span>Nos pépites</span></button>
+                    <div><img src="images\icon\Property 1=price.png"><a href="#">Économique</a></div>
+                    <div><img src="images\icon\Property 1=family.png"><a href="#">Familial</a></div>
+                    <div><img src="images\icon\Property 1=romantic.png"><a href="#">Romantique</a></div>
+                    <div><img src="images\icon\Property 1=fire.png"><a href="#">Nos pépites</a></div>
                 </section>
             </div>
             <div class="hebergements-and-populaires">
