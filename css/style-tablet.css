@@ -1,0 +1,134 @@
+/****** Media queries ***********/
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+     .filtre{
+        flex-wrap: wrap;
+        height: 91px;
+    }
+    .filtre h3{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top :0px;
+    }
+    .filtre div{
+        display: flex;
+        align-items: center;
+        height: 42px;
+        padding-top: 4px;
+        padding-bottom : 4px;
+        padding-right: 19px;
+        padding-left:19px;
+        gap: 10px;
+    }
+    .filtre div img{
+        display: flex;
+    }
+    .filtre div a{
+        display: flex;
+        font-size: 16px;
+        height: 21px;
+    }
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: 100%;
+    }
+
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 14px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 13px;
+    }
+    .activités{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 330px;
+    padding : 30px;
+}
+.activités-title{
+margin-bottom:30px;
+margin-top: 0px;
+}
+.activités-card .card{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+width: 194px;
+height: 270px;
+padding: 0;
+
+}
+.activités-card {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-column-gap: 30px;
+grid-row-gap: 0px;
+}
+ 
+.activités-card .card img{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.10);
+}
+.activités-card .card p{
+    display: flex;
+    padding: 20px 19px 20px 19px;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 924px;
+    height: 163px;
+    background-color: #F2F2F2;
+
+}
+.footer h3{
+    padding-bottom: 7.5px;
+    margin : 0px;
+}
+.footer li{
+    display: flex;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+.footer{
+    width: 248px;
+    padding: 20px;
+}
+.footer ul{
+    padding-left: 0px;
+    margin : 0px;
+}
+.footer h3{
+    font-size: 18px;
+}
+
+.footer li:nth-last-child(-n+1){
+    padding-bottom: 0px;
+}
+}

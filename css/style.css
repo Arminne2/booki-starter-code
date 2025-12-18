@@ -138,6 +138,7 @@ margin : 15px 16px 15px 16px;
     gap:10px;
 }
 .item:hover{
+
     background-color:#DEEBFF;
 }
 .filtre img{
