@@ -12,6 +12,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css\style small device.css">
 </head>
 
 <body>
@@ -30,16 +31,19 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
                 <form action="" method="get" class="recherche">
-                    <div class="vector"><img src="images\icon\Vector.png" alt="Vector"></div>
+                    <div class="vector"><i class="fa-solid fa-location-dot"></i></div>
                     <input type="search" id="recherche" name="recherche" placeholder="Marseille, France">
                     <span><p>Rechercher</p></span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </form>
                 <section class="filtre">
                     <h3>Filtres</h3> 
-                    <div><img src="images\icon\Property 1=price.png" alt="billet"><a href="#">Économique</a></div>
-                    <div><img src="images\icon\Property 1=family.png" alt="personne"><a href="#">Familial</a></div>
-                    <div><img src="images\icon\Property 1=romantic.png" alt="coeur"><a href="#">Romantique</a></div>
-                    <div><img src="images\icon\Property 1=fire.png" alt="flamme"><a href="#">Nos pépites</a></div>
+                    <div class="container">
+                    <div class='item'><img src="images\icon\Property 1=price.png" alt="billet"><a href="#">Économique</a></div>
+                    <div class='item'><img src="images\icon\Property 1=family.png" alt="personne"><a href="#">Familial</a></div>
+                    <div class='item'><img src="images\icon\Property 1=romantic.png" alt="coeur"><a href="#">Romantique</a></div>
+                    <div class='item'><img src="images\icon\Property 1=fire.png" alt="flamme"><a href="#">Nos pépites</a></div>
+                    </div>
                 </section>
                 <div class="icone">
                 <img src="images\icon\icone.png" alt="i"><p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -274,30 +278,30 @@
                 </section>
         </main>
         <footer>
-    <div class="footer">
-        <h3>À propos</h3>
-        <ul>
-            <li>Fonctionnement du site</li>
-            <li>Conditions générales</li>
-            <li>Données et confidentialité</li>
-        </ul>
-    </div>
-    <div class="footer">
-        <h3>Nos hébergements</h3>
-        <ul>
-            <li>Charte qualité</li>
-            <li>Proposer votre hôtel</li>
-        </ul>
-    </div>
-    <div class="footer">
-        <h3>Assistance</h3>
-        <ul>
-            <li>Centre d’aide</li>
-            <li>Nous contacter</li>
-        </ul>
-    </div>
+            <div class="footer">
+             <h3>À propos</h3>
+                <ul>
+                    <li>Fonctionnement du site</li>
+                    <li>Conditions générales</li>
+                    <li>Données et confidentialité</li>
+                </ul>
+         </div>
+            <div class="footer">
+             <h3>Nos hébergements</h3>
+                <ul>
+                 <li>Charte qualité</li>
+                    <li>Proposer votre hôtel</li>
+             </ul>
+         </div>
+            <div class="footer">
+             <h3>Assistance</h3>
+             <ul>
+                 <li>Centre d’aide</li>
+                 <li>Nous contacter</li>
+             </ul>
+            </div>
 
-</footer>
+        </footer>
     </div>
 </body>
 </html>

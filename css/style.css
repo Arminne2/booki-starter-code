@@ -66,12 +66,16 @@ header{
     font-size: 18px;
     font-weight: bolder;
  }
+ .fa-magnifying-glass{
+    display :none;
+ }
 .vector{
     background-color: #F2F2F2; 
     width: 50px; 
     border-radius: 15px 0 0 15px;
     padding-top: 15px;
     text-align: center;
+    fill: #000;
 }
 .icone p{
 margin:0;
@@ -120,6 +124,10 @@ margin : 15px 16px 15px 16px;
 }
 .filtre div{
     display: flex;
+    gap: 15px;
+}
+.item{
+    display: flex;
     font-size: 17px;
     font-weight: bold;
     border-radius: 25px;
@@ -129,7 +137,7 @@ margin : 15px 16px 15px 16px;
     padding: 13px 19px;
     gap:10px;
 }
-.filtre div:hover{
+.item:hover{
     background-color:#DEEBFF;
 }
 .filtre img{
@@ -372,45 +380,4 @@ footer{
 
 .footer li:nth-last-child(-n+1){
     padding-bottom: 0px;
-}
-/* Le code ci-dessous correspond à la version responsive uniquement */
-
-/****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px) {
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
-
-    .hebergements {
-        width: 100%;
-    }
-
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .populaires-cards a {
-        width: 30%;
-    }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
-}
-
-/* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
 }
