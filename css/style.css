@@ -313,7 +313,8 @@ a {
     margin-top: 35px;
     margin-bottom: 35px;
     height: 499px;
-    padding : 30px;
+    padding: 30px;
+    width: 100%;
 }
 .activités-title{
 margin-bottom:30px;
@@ -323,16 +324,17 @@ margin-top: 0px;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
-width: 298px;
+width: 100%;
 height: 439px;
 padding: 0;
 
 }
 .activités-card {
 display: grid;
-grid-template-columns: repeat(5, 1fr);
+grid-template-columns: repeat(4, 1fr);
 grid-column-gap: 30px;
 grid-row-gap: 0px;
+padding-right: 60px;
 }
  
 .activités-card .card img{
