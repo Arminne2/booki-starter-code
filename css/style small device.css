@@ -71,7 +71,7 @@ header{
     font-weight: bolder;
     width: 100%;
  }
- .recherche span{
+ .bouton{
     display: none;
  }
  #recherche{
@@ -90,7 +90,7 @@ header{
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.25);
    
 }
-.recherche span p{
+.bouton p{
 margin : 15px 16px 15px 16px;
 
 }
