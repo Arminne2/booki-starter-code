@@ -117,7 +117,7 @@ margin : 15px 16px 15px 16px;
     align-items: center;
     gap: 10px;
 }
-.filtre h3{
+.filtre h2{
     display: flex;
     font-size: 18px;
     height: 21px;
