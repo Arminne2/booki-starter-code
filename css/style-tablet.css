@@ -1,6 +1,6 @@
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
-@media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:768px) and (max-width: 1024px) {
      .filtre{
     display: flex;
     flex-wrap: wrap;
@@ -12,8 +12,8 @@
     display: flex;
     font-size: 18px;
     height: 21px;
-    width: 100%!important;
-    margin: 0!important;
+    width: 100%;
+    margin: 0;
 }
 .filtre div{
     display: flex;
@@ -46,11 +46,11 @@
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
-    .populaires {
+    #populaires {
         width: 100%;
         margin-top: 50px;
     }
@@ -72,7 +72,7 @@
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-    .activités{
+    #activités{
     margin-top: 35px;
     margin-bottom: 35px;
     height: 330px;
